@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "emailsvalhalla",
+  "private_key_id": "aea098b4a82a304eb428e831294e556da689771b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCxndfq1YCl2JD1\nmDqyQ1qxht79uVJ9O/+3j8IZl0/m3ZQXq8q7/NKCmc0I8PTGz/Wnf19cNsZ/mHJV\nljrl5/sN0iJKiYNuRG49h0lQapobbEIzLvDevogl1jJY5sJjts5+kj2GbIJf6wXv\nlPUEGiofsnjf3PQUyEKklPrz0zJOF8OEhwGTk7coThEz05FmUQYyVQs9lZgB1lK1\nFV5YIJ5JyqOAw8k1IWOYYwudsK4UKuv/2YJSUC6TzRwm70it7KfK1BQIGAKG15s1\neqRUNO1mn7wZ5OMn4zMEhsMPdiAtNrIN4/lKqwPmyipexvHJ1sl77Hjx/hk18tuF\ndTVEJFMBAgMBAAECggEAE0+HMlmwkTdsuTrqBMgUY/E3LMw5hvKfQICReJFOJ1pH\nV9R+Z/Zal8brdxGldzkUavfK8R5mcehr49i/wg+46J2ES2jMgJBRkQB0rNjONPWN\n8/0iRIFgEYcKdcZu84LkS/gP1t3UxeNqQ4xFIENM+aHAiQw/gEPulPC6oQhA86Ls\n0ojxqF4quPfi+tncENwbfo/6GiAxt+YB32yRgzGzaiCXV8149kMz3UCYqd9uqgbo\n1P7IN1sbCyyxgws4ShWa8LDWRWl3PsQxyCFpYfnMe3+YC8ex4bOdAAN80PtuX60q\nKEmlqiuJVaL4r+iBcS6m6UrIUiZqk+DA5nHxwFM2vQKBgQDi9mJ4CCPUy7Lwn0kK\n1eeYCwvBSDPbh8ZZgu/H0q9FCNCF5GDDesuEx9sjTlxkKN1SdHCI7Qlm3N+Mor/6\n5pK4qlqj5m4HVxbV9wnHDZvDI9413hTuwyrs3f1qSDbPwIG74KZhjIqY5qcZPaGa\nBZsnRU9qH+ZoFkmDXgUraqOgBQKBgQDIV0CU4wvR5s9sU7tUHxrZzF69x4/tkeJH\nz19Rh2uPbBvqoc9GTQ/QaKmu7t3ZUgwUg3TuSeoPpHha3Q4DVTEsGJGw8AwPfux8\nHhtxl8pTak00OzFgzXhARYsWIcT5PXfqfh9xABNEmH1zmJVdT40ydaSpZZIeiJaE\nS0zJFnKjzQKBgQCMmkZ2RdSsx2SbXJJLfCh1MKKforM9lOd0HIGfMQ4TnlpQGCM5\n9qCOKaHARZNHGWnC4w+0Q+RHLR3wagK01JKghCiS0PXo5jLnaptMDUopodbPWD1v\njMjS5NNRPFt4aLH2Sj3IwOA7yOhL4rpySHbN5UpFXG3IncX89AoP04h6YQKBgEeE\nNi6wGlEU5ujRvyaZb/ld5lgy/CMfl7pwwaMWB4SMYC7TEm4TJlkMc75Z0OI6Usuj\n3cMOqbppyPkOvmjcKZCHOMMD/houAfeQu9VCDVzXrrW9h7P5xTqUWMFOzsT2d29D\nFLA/CaHMGcSBLJjBxDLGIkDCXHX/5lNVmhSSqdvlAoGAAVmVdiJRa88I9VSlStc0\nFIa9ELQSDhqq3VNSByhngD/v+jyKU1bM1SjNkrtmLVRMA4R73taXng3BkXwjDlTH\njsnsm0iiOKN5Ct4kr2OQz16RlfwWRXvXth6iZuh0ZU52YZX/UUfjgF/R6I8GcWnB\nOaEVqCG/UXELhtCiwgSj/xk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "emailsvalhalla@emailsvalhalla.iam.gserviceaccount.com",
+  "client_id": "109297652862819023310",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/emailsvalhalla%40emailsvalhalla.iam.gserviceaccount.com"
+}
