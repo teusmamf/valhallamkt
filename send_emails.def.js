@@ -13,10 +13,10 @@ const auth = new google.auth.GoogleAuth({
   scopes: ['https://www.googleapis.com/auth/gmail.send']
 });
 
-// Criação do cliente da API do Gmail
+// Criação do cliente --------------||||---------------------||||
 const gmail = google.gmail({version: 'v1', auth});
 
-// Configuração do Nodemailer
+// Nodemailer--------------||||---------------------||||
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
@@ -25,27 +25,27 @@ const transporter = nodemailer.createTransport({
   }
 });
 
-// Leitura da lista de e-mails a partir do arquivo CSV
+// Leitura da lista--------------||||---------------------||||
 fs.createReadStream('lista_de_emails.csv')
   .pipe(csv())
   .on('data', (row) => {
-    // Para cada linha do CSV, envia um e-mail
+    // Para cada linha do CSV, envia um e-mail--------------||||---------------------||||
     const mailOptions = {
       from: 'martinsmateus382@gmail.com',
       to: row.email,
-      subject: 'teste',
+      subject: 'teste2',
       text: 'teste valhalla'
     };
     console.log(mailOptions.to);
 
-    // Envia o e-mail usando o Nodemailer e a API do Gmail
+    // Envia o e-mail --------------||||---------------------||||
     transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
         console.error(error);
       } else {
         console.log(`E-mail enviado para ${row.email}: ${info.response}`);
         
-        // Marca o e-mail como enviado usando a API do Gmail
+        //enviado--------------||||---------------------||||
         gmail.users.messages.modify({
           userId: 'me',
           id: info.messageId,
